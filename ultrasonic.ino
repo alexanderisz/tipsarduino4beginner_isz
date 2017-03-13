@@ -19,8 +19,8 @@ void setup()
 
 void loop() 
 {
-  unsigned int uS = sonar1.ping();
-  unsigned int dist = sonar1.convert_cm(uS);
-  Serial.println(dist);
+  unsigned int US = sonar1.ping();
+  unsigned int distance = sonar1.convert_cm(US);
+  Serial.println(distance);
 }
 
